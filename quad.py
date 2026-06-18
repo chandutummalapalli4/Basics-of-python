@@ -1,0 +1,7 @@
+a,b,c=input("Enter numbers :").split(",")
+x=int(a)
+y=int(b)
+z=int(c)
+root1=(-y+(y**2-4*x*z)**0.5)/(2*x)
+root2=(-y-(y**2-4*x*z)**0.5)/(2*x)
+print(root1,root2)
