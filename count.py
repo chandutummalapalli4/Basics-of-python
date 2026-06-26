@@ -1,4 +1,5 @@
-str1 = input("Enter a string: ")
-ch = input("Enter character to find: ")
-count = str1.count(ch)
-print("Frequency:", count)
+n=int(input("Enter n value:"))
+i=1
+while i<n+1:
+    print(i)
+    i+=1
